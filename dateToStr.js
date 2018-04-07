@@ -2,11 +2,13 @@ var app = Application.currentApplication();
 app.includeStandardAdditions = true;
 
 // For debugging
+/*
 app.displayNotification("All graphics have been converted.", {
     withTitle: "My Graphic Processing Script",
     subtitle: "Processing is complete.",
     soundName: "Frog"
 });
+*/
 
 /**
  * Takes day, month, and year values and converts it into a Date object
